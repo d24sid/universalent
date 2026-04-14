@@ -32,10 +32,10 @@ export default function About() {
 
                 <div className="relative text-center">
                   <div className="w-24 h-24 bg-brand-blue/20 border-2 border-brand-blue/40 rounded-full flex items-center justify-center mx-auto mb-6">
-                    <span className="text-4xl font-black text-white font-heading">AG</span>
+                    <span className="text-4xl font-black text-white font-heading">UE</span>
                   </div>
-                  <h3 className="text-3xl font-black text-white mb-2 font-heading">Ajay Goyal</h3>
-                  <p className="text-blue-300 font-bold uppercase tracking-widest text-sm font-body mb-8">Founder & Owner</p>
+                  <h3 className="text-3xl font-black text-white mb-2 font-heading">Universal Enterprises</h3>
+                  <p className="text-blue-300 font-bold uppercase tracking-widest text-sm font-body mb-8">Jamshedpur, Jharkhand</p>
                   <div className="px-8 py-4 border border-white/10 bg-white/5 rounded-2xl text-white/80 italic text-base leading-relaxed font-body max-w-xs mx-auto">
                     "Our commitment is to structural integrity and client satisfaction, every single time."
                   </div>
@@ -74,7 +74,7 @@ export default function About() {
               {[
                 { icon: ShieldCheck, title: "Reliability", text: "Quality certified materials for every project." },
                 { icon: TrendingUp, title: "Local Expertise", text: "Deep roots in Jamshedpur's industrial landscape." },
-                { icon: Users, title: "Owner-Led", text: "Direct commitment from Ajay Goyal himself." },
+                { icon: Users, title: "Owner-Led", text: "Personal commitment to quality from the top." },
                 { icon: CheckCircle2, title: "Fast Delivery", text: "Optimized logistics for timely material arrival." },
               ].map((item, idx) => (
                 <div key={idx} className="flex items-start space-x-3 p-4 rounded-xl bg-brand-light border border-brand-border hover:border-brand-blue/30 transition-colors group">

@@ -66,9 +66,8 @@ export default function About() {
               A Legacy of <span className="text-brand-blue">Excellence</span> in Jamshedpur
             </h2>
             <p className="text-brand-steel text-lg leading-relaxed mb-8 font-body">
-              Based in the heart of India's steel city, Universal Enterprises is a trusted supplier led by{" "}
-              <span className="font-bold text-brand-navy">Ajay Goyal</span>. We specialize in providing the
-              highest quality iron and non-alloy steel products to power the nation's infrastructure.
+              Based in the heart of India's steel city, Universal Enterprises is a trusted supplier
+              specializing in providing the highest quality iron and non-alloy steel products to power the nation's infrastructure.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-10">
